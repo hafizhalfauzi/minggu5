@@ -4,6 +4,7 @@
 $route = isset($_GET['route']) && !str_ends_with($_GET['route'], '.php') ? $_GET['route'] : 'index';
 $routeParts = explode('/', $route);
 
+//Parameter
 echo $_GET ['route']."<br/>";
 echo $route;
 
